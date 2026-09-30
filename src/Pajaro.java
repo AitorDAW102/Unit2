@@ -15,6 +15,6 @@ public class Pajaro {
     }
 
     public void printColor(){
-        System.out.println("el color es: "+color);
+        System.out.println("El color es: "+color);
     }
 }
