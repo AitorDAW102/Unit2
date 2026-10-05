@@ -6,12 +6,13 @@ public class TestPajaro {
         p.printEdad();
         p.setColor("Amarillo");
         p.printColor();
-
+        p.printSexo();
         System.out.println("Segundo Pajaro");
         Pajaro p2=new Pajaro();
         p2.setEdad(69);
         p2.printEdad();
         p2.setColor("Rojo");
         p2.printColor();
+        p2.printSexo();
     }
 }
