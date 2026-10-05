@@ -32,6 +32,7 @@ public class Persona {
         weight=newWeight;
         height=newHeight;
     }
+
     /*MODIFICADOR DE VARIABLES*/
     public void setName(String newName){
         name=newName;
