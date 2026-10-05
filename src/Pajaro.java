@@ -2,15 +2,21 @@ public class Pajaro {
     private String color;
     private int edad;
     private boolean esHembra;
+    private static int numpajaro;
 
     public Pajaro(){
         color = "Verde";
         edad=0;
         esHembra=true;
+        numpajaro++;
     }
 
     public void setEdad(int newEdad){
         edad=newEdad;
+    }
+
+    public int getNumpajaro(){
+        return numpajaro;
     }
 
     public void printEdad(){
@@ -31,5 +37,9 @@ public class Pajaro {
 
     public void printSexo(){
         System.out.println("¿El pajaro es hembra? "+esHembra);
+    }
+
+    private static void muestraPajaro(){
+        System.out.println("Hay "+numpajaro+" pajaros");
     }
 }
