@@ -38,12 +38,12 @@ public class Persona {
         name=newName;
     }
 
-    public void setDni(String newDni){
-        dni=newDni;
-    }
-
     public void setAge(int newAge) {
         age = newAge;
+    }
+
+    public void setDni(String newDni){
+        dni=newDni;
     }
 
     public void setGender(char newGender) {
@@ -59,6 +59,17 @@ public class Persona {
     }
 
     /*DEVOLVER VALOR*/
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getDni() {
+        return dni;
+    }
 
     public char getGender() {
         return gender;
@@ -70,18 +81,6 @@ public class Persona {
 
     public double getWeight() {
         return weight;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public String getDni() {
-        return dni;
-    }
-
-    public String getName() {
-        return name;
     }
 
     /*FUNCIONES*/
