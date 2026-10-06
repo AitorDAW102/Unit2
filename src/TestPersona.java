@@ -11,19 +11,19 @@ public class TestPersona {
 
         /*ADULTO*/
         System.out.println("Persona 1");
-        person1.isAdult();
+        System.out.println("¿Es " + person1.getName() +" una persona adulta? "+person1.isAdult());
         System.out.println("Persona 2");
-        person2.isAdult();
+        System.out.println("¿Es " + person2.getName() +" una persona adulta? "+person2.isAdult());
         System.out.println("Persona 3");
-        person3.isAdult();
+        System.out.println("¿Es " + person3.getName() +" una persona adulta? "+person3.isAdult());
 
         /*IMC*/
         System.out.println("Persona 1");
-        person1.hasIdealWeight();
+        System.out.println("El IMC de " + person1.getName() +" es de: "+person1.hasIdealWeight());
         System.out.println("Persona 2");
-        person2.hasIdealWeight();
+        System.out.println("El IMC de " + person2.getName() +" es de: "+person2.hasIdealWeight());
         System.out.println("Persona 3");
-        person3.hasIdealWeight();
+        System.out.println("El IMC de " + person3.getName() +" es de: "+person3.hasIdealWeight());
 
         /*PRINT*/
         System.out.println("Persona 1");

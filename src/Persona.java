@@ -85,16 +85,16 @@ public class Persona {
 
     /*FUNCIONES*/
 
-    public void isAdult(){
+    public boolean isAdult(){
         boolean adult;
         adult=(age>=18);
-        System.out.println("¿Es adulto? -> " + adult);
+        return (adult);
     }
 
-    public void hasIdealWeight(){
+    public double hasIdealWeight(){
         double imc;
         imc=(weight/(height*height));
-        System.out.println("Su IMC es: "+imc);
+        return (imc);
     }
 
     public void printData(){
