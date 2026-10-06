@@ -7,7 +7,7 @@ public class TestPersona {
         Persona person2=new Persona("Yolanda",18,'F');
 
         /*PERSONA3*/
-        Persona person3=new Persona("Martin",18,'M',"3456732L",72.56,1.67);
+        Persona person3=new Persona("Martin",18,'M',"34584632L",72.56,1.67);
 
         /*ADULTO*/
         System.out.println("Persona 1");

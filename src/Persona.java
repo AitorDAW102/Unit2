@@ -7,21 +7,21 @@ public class Persona {
     private double height;
 
     public Persona(){
-        name="Hector";
-        age=55;
-        dni="123314K";
-        gender='M';
-        weight=76.6;
-        height=1.99;
+        name="";
+        age=0;
+        dni="00000000X";
+        gender='N';
+        weight=00.0;
+        height=00.0;
     }
 
     public Persona(String newName, int newAge, char newGender){
         name=newName;
         age=newAge;
         gender=newGender;
-        dni="168314Q";
-        weight=65.6;
-        height=1.40;
+        dni="00000000X";
+        weight=00.0;
+        height=00.0;
     }
 
     public Persona(String newName, int newAge, char newGender,String newDni, double newWeight, double newHeight){
