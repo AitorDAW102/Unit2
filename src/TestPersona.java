@@ -11,7 +11,7 @@ public class TestPersona {
 
         /*ADULTO*/
         System.out.println("Persona 1");
-        System.out.println("¿Es " + person1.getName() +" una persona adulta? "+person1.isAdult());
+        System.out.println("¿Es s" + person1.getName() +" una persona adulta? "+person1.isAdult());
         System.out.println("Persona 2");
         System.out.println("¿Es " + person2.getName() +" una persona adulta? "+person2.isAdult());
         System.out.println("Persona 3");
