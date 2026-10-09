@@ -20,7 +20,7 @@ public class Employe {
     }
 
     public boolean moreThan3000(){
-        boolean money=(salary>=3000);
+        boolean money=(salary>3000);
         return money;
     }
 }
