@@ -13,11 +13,11 @@ public class Square {
         l1 = newl1;
     }
 
-    public double peremiterr(){
+    public double calcPeremiter(){
         double perimeter = l1*4;
         return(perimeter);
     }
-    public double area(){
+    public double calcArea(){
         double area = l1*l1;
         return(area);
     }
