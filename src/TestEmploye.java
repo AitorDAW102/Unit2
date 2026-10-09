@@ -6,6 +6,6 @@ public class TestEmploye {
         System.out.println("El empleado se llama "+e1.getName());
         System.out.println(e1.getName()+" cobra unos "+e1.getSalary()+"€ al mes");
 
-        System.out.println("¿"+e1.getName()+" cobra mas de 3000? "+e1.moreThan3000()+" Es de unos"+e1.getSalary());
+        System.out.println("¿"+e1.getName()+" cobra mas de 3000 y le tocara pagar mas impuestos? "+e1.payTaxes()+" Es de unos"+e1.getSalary());
     }
 }

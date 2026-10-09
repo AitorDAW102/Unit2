@@ -19,7 +19,7 @@ public class Employe {
         System.out.println("Salario: "+salary+"€");
     }
 
-    public boolean moreThan3000(){
+    public boolean payTaxes(){
         boolean money=(salary>3000);
         return money;
     }
