@@ -15,8 +15,10 @@ public class Plane {
             quadrant=2;
         } else if(x<0&&y<0){
             quadrant=3;
-        } else {
+        } else if (x>0&&y<0){
             quadrant=4;
+        } else {
+            quadrant=0;
         }
         return quadrant;
     }
@@ -28,8 +30,10 @@ public class Plane {
             quadrant=2;
         } else if(x<0&&y<0){
             quadrant=3;
-        } else {
+        } else if (x>0&&y<0){
             quadrant=4;
+        } else {
+            quadrant=0;
         }
         System.out.println("El punto esta en el cuadrante: "+quadrant);
     }
