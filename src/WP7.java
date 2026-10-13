@@ -4,7 +4,7 @@ public class WP7 {
     private String code;
     private int credits;
 
-    WP7(String newName, int newAge){
+    public WP7(String newName, int newAge){
         name=newName;
         age=newAge;
         code="31332Q";
